@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     });
     res.status(200).json(categoriesData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json("hello");
   }
 });
 

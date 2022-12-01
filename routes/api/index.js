@@ -7,4 +7,8 @@ router.use('/categories', categoryRoutes);
 router.use('/products', productRoutes);
 router.use('/tags', tagRoutes);
 
+router.use((req,res) =>{
+    res.status(400).json("whoopsie")
+})
+
 module.exports = router;
