@@ -16,10 +16,12 @@ Products.init(
       autoIncrement: true,
       allowNull: false
     },
+    // product name
     product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
+    // category id
     category_id: {
       type: DataTypes.INTEGER,
       references: {
@@ -28,6 +30,7 @@ Products.init(
         unique: false
       }
     },
+    // price
     price: {
       type: DataTypes.DECIMAL(15, 2),
       validate: {
@@ -35,6 +38,7 @@ Products.init(
       },
       allowNull: false
     },
+    // stock
     stock: {
       type: DataTypes.INTEGER,
       validate: {
