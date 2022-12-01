@@ -18,7 +18,6 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'product',
-        unique: false,
         key: 'id'
       }
     },
@@ -26,12 +25,10 @@ ProductTag.init(
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'product',
-        unique: false,
+        model: 'tag',
         key: 'id'
       }
     }
-
   },
   {
     sequelize,
