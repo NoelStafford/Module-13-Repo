@@ -43,7 +43,7 @@ Install comment:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
-I am open to suggestions to help improve this repo as well as comments of things you like. Feel free to make change at any time. I would like to thank Mark Elliot and Mateo Wallace for their work and effort in making this happen as well as the time that they sacrificed.
+I am open to suggestions to help improve this repo as well as comments of things you like. Feel free to make change at any time. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,3 +68,4 @@ For any further questions feel free to contact me via:
 
 ## Acknowledgments
 
+I would like to thank Mark Elliot and Mateo Wallace for their work and effort in making this happen as well as the time that they sacrificed.
